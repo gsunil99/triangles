@@ -14,10 +14,11 @@ function validateNumber(str) {
 }
 
 function handleArea() {
-    output.style.display = "block";
     if(validateNumber(base.value) && validateNumber(height.value) && nonZero(base.value) && nonZero(height.value)) {
+        output.style.color = "green";
         output.innerText = "Area is " + 0.5*(Number(base.value) + Number(height.value))+" cm";
     } else {
+        output.style.color = "red";
         output.innerText = "INVALID";
     }
 }
