@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Fun with triangles</title>
+    <link rel="icon" href="triangle-14.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="ul-nav">
+             <li class="li-item"><a href="/" class="link">is triangle</a></li>
+            <li class="li-item"><a href="quiz.html" class="link">quiz</a></li>
+            <li class="li-item"><a href="hypotenuse.html" class="link">hypotenuse</a></li>
+            <li class="li-item"><a href="area.html" class="link active">area</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Find Area</h1>
+        <p>given base and height of a triangle, find the area</p>
+    </header>
+    <div class="container">   
+        <div class="section">
+            <span>area of triangle = 1/2(base x height)</span>
+        </div>
+        <label for="base">enter base</label>
+        <input id="base" placeholder="in cm" type="number"/>
+        <label for="height">enter height</label>
+        <input id="height" placeholder="in cm" type="number"/>
+        <div class="container">
+            <button id="btn-area">Find Area</button>
+        </div>
+    </div>
+    <p id="area-output">Output will be visible here!!!</p>
+    <footer>
+        <div style="font-size: larger;"> Made with ❤️ by <a target="_blank" href="https://gsunil.netlify.app/" style="color: bisque;">G Sunil</a></div>
+    </footer>
+    <script src="area.js"></script>
+</body>
+</html>

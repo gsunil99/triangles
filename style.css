@@ -56,7 +56,7 @@ button{
     margin-top: 1rem;
     border: 0;
 }
-#is-triangle-output{
+#is-triangle-output,#quiz-output,#hypo-output,#area-output{
     padding: 1rem;
     /* display: none; */
     background-color: #f3f4f6;
@@ -71,5 +71,19 @@ footer {
     color: white;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    margin-top: 6rem;
+    margin-top: 6.5rem;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+}
+.section{
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+.section span{
+    display: block;
+    margin-bottom: 1rem;
 }
