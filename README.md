@@ -1,7 +1,13 @@
-# Pirate Speak [![GitHub stars](https://img.shields.io/github/stars/gsunil99/triangles?style=social)](https://github.com/login?return_to=%2Fgsunil99%triangles) ![GitHub forks](https://img.shields.io/github/forks/gsunil99/triangles?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/gsunil99/triangles) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/gsunil99/triangles)
+# Triangles [![GitHub stars](https://img.shields.io/github/stars/gsunil99/triangles?style=social)](https://github.com/login?return_to=%2Fgsunil99%triangles) ![GitHub forks](https://img.shields.io/github/forks/gsunil99/triangles?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/gsunil99/triangles) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/gsunil99/triangles)
 
 ## Project is live at [**gsunil-triangles**](https://gsunil-pirate-talk.netlify.app/)
-## I used [**Fun translation API**](https://funtranslations.com/) to convert input text into pirate language
+# How to use
+## Click on section you want to open.
+### - Play Quiz: Select answers and click on submit to check the score
+### - Angles of Triangle: Enter values in input fields and click on submit to check results.
+### - Check Hypotenuse: Enter values in input fields and click on submit to check results.
+### - Calculate Area: Enter values in input fields and click on submit to check results.
+
 ## How to run the project!
 ### - Clone the project
 > ``` git clone  "https://github.com/gsunil99/triangles.git" ```
